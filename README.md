@@ -1,5 +1,6 @@
 # udp-MIDI
-## Protocol to send multiple midi-streams over the internet with UDP.
+### Protocol to send multiple midi-streams over the internet with UDP.
+I did this project for a networking course at Houghton College
 
 ### Objectives
 - Send live MIDI messages from client to host
@@ -10,3 +11,5 @@
   - Sync all machines involved with NTP so that timestamping is accurate
 
 I was able to meet all of the above objectives in this project.
+
+### Networking Pri
