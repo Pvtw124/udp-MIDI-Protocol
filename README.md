@@ -52,6 +52,9 @@ s.enterabs(when_to_play, priority=1, action=midi_out.send_message, argument=(not
 s.run()
 ```
 
+### References
+https://www.tobias-erichsen.de/software/loopmidi.html
+
 
 
 
