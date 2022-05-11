@@ -39,7 +39,7 @@ The host receives MIDI messages from the internet in one thread, and local MIDI 
 
 `latency_dictionary.update({ip : (time.time()+offset)-timestamp})`
 
-In a new thread, the note is played at the time specified by the timestamp, plus the required latency delay. To find the latency delay it should add, the host checks to see if this note comes from the slowest IP. If it is from the machine with the largest delay, no delay is added. If it not from the slowest machine, then the delay of the slowest machine minus the latency of the current machine is added.
+In a new thread, the note is played at the time specified by the timestamp, plus the required latency delay. To find the latency delay it should add, the host checks to see if this note comes from the slowest IP. If it is from the machine with the largest delay, no delay is added. If it is not from the slowest machine, then the delay of the slowest machine minus the latency of the current machine is added.
 
 ```
 if(ip != slowest_ip):
